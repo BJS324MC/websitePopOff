@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('./OpenSans_Condensed-Regular.ttf');
+}
+body{
+    margin: 0;
+    font-family: "Open Sans";
+}
+#table{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+#table > div{
+    margin: 0;
+}
+#dodgeball{
+    width:100%;
+    padding: 5%;
+    background-color: beige;
+}
+
+#swimming{
+    width:100%;
+    padding: 5%;
+    background-color: orangered;
+}
+#dnow {
+    margin: 0;
+    background-color: azure;
+    flex-basis: 10%;
+    font-size: 1em;
+}
